@@ -1,0 +1,26 @@
+section,feature,nuclear_pct,non_nuclear_pct,gap_pp,p_value,effect_size_h,sig,test_scope
+compliance,Verified compliance,44.44444444444444,19.565217391304348,24.87922705314009,0.008221512190760812,0.5430745479082127,**,binary chi-squared with Yates
+compliance,Demonstrated compliance,47.22222222222222,44.565217391304344,2.657004830917875,0.9409729088961896,0.053326660139770166,ns,binary chi-squared with Yates
+compliance,Consultation mechanism,66.66666666666666,44.565217391304344,22.101449275362317,0.04015498219178227,0.4487477428748097,*,binary chi-squared with Yates
+access,Area access,26.785714285714285,25.581395348837212,1.2043189368770746,1.0,0.027395307992332363,ns,binary chi-squared with Yates
+access,Facility access,53.57142857142857,60.46511627906976,-6.8936877076411935,0.6302472381019606,-0.13937197808315416,ns,binary chi-squared with Yates
+access,Item access,46.42857142857143,39.53488372093023,6.8936877076412,0.6302472381019606,0.13937197808315438,ns,binary chi-squared with Yates
+access,Item-section access,1.7857142857142856,0.0,1.7857142857142856,1.0,0.2680631228224381,ns,binary chi-squared with Yates
+verified_compliance_mechanism_inspector_type,National/NTM,83.92857142857143,72.09302325581395,11.835548172757482,0.3495640216002316,0.28814449647047535,ns,overall categorical chi-squared
+verified_compliance_mechanism_inspector_type,International body,8.928571428571429,13.953488372093023,-5.024916943521594,0.3495640216002316,-0.15876772056638344,ns,overall categorical chi-squared
+verified_compliance_mechanism_inspector_type,Joint,7.142857142857142,13.953488372093023,-6.810631229235881,0.3495640216002316,-0.22455310528593286,ns,overall categorical chi-squared
+verified_compliance_mechanism_inspector_type,Other,0.0,0.0,0.0,0.3495640216002316,0.0,ns,overall categorical chi-squared
+verified_compliance_mechanism_trigger_type,Right-based quota,39.285714285714285,44.18604651162791,-4.900332225913623,0.6677431450032815,-0.09941779023561748,ns,overall categorical chi-squared
+verified_compliance_mechanism_trigger_type,Event-triggered,33.92857142857143,23.25581395348837,10.672757475083058,0.6677431450032815,0.23713239030872568,ns,overall categorical chi-squared
+verified_compliance_mechanism_trigger_type,Continuous/NTM,10.714285714285714,11.627906976744185,-0.9136212624584722,0.6677431450032815,-0.029008535523366574,ns,overall categorical chi-squared
+verified_compliance_mechanism_trigger_type,Challenge,7.142857142857142,4.651162790697675,2.491694352159468,0.6677431450032815,0.10635279681521048,ns,overall categorical chi-squared
+verified_compliance_mechanism_trigger_type,Scheduled,8.928571428571429,13.953488372093023,-5.024916943521594,0.6677431450032815,-0.15876772056638344,ns,overall categorical chi-squared
+verified_compliance_mechanism_trigger_type,Other,0.0,2.3255813953488373,-2.3255813953488373,0.6677431450032815,-0.30619184557370904,ns,overall categorical chi-squared
+verified_compliance_mechanism_agreement_trigger_type,Unspecified,40.0,34.48275862068966,5.517241379310345,0.8461419495361318,0.11419782830802916,ns,overall categorical chi-squared
+verified_compliance_mechanism_agreement_trigger_type,Quota,11.428571428571429,10.344827586206897,1.0837438423645318,0.8461419495361318,0.03480430167816262,ns,overall categorical chi-squared
+verified_compliance_mechanism_agreement_trigger_type,Cyclical,17.142857142857142,24.137931034482758,-6.9950738916256165,0.8461419495361318,-0.17339747016923202,ns,overall categorical chi-squared
+verified_compliance_mechanism_agreement_trigger_type,Upon notification,28.57142857142857,31.03448275862069,-2.463054187192121,0.8461419495361318,-0.05386021756958037,ns,overall categorical chi-squared
+verified_compliance_mechanism_agreement_trigger_type,Other,2.857142857142857,0.0,2.857142857142857,0.8461419495361318,0.3396925761673473,ns,overall categorical chi-squared
+trigger_flags,Quota trigger flag,0.0,0.0,0.0,,,ns,binary chi-squared with Yates
+trigger_flags,Cyclical trigger flag,0.0,0.0,0.0,,,ns,binary chi-squared with Yates
+trigger_flags,Upon-notification trigger flag,0.0,0.0,0.0,,,ns,binary chi-squared with Yates
